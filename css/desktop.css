@@ -1,0 +1,110 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 156px;
+    padding-right: 156px;
+  }
+  .features-list {
+    display: flex;
+    gap: 24px;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+  .features-icon {
+    display: block;
+  }
+  .features-item {
+    width: calc((100% - 24px) / 4);
+  }
+  .features-text {
+    font-weight: 400;
+  }
+  .section-team > .container {
+    max-width: 1440px;
+    padding: 120px 156px;
+  }
+  .doing {
+    display: flex;
+    margin-bottom: 120px;
+  }
+  .customers-list {
+    flex-wrap: nowrap;
+    gap: 24px;
+    padding: 0;
+  }
+  .customers-item {
+    width: calc((100% - 24px) / 6);
+  }
+  .section-hero {
+    padding: 187px 472px;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-desk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .section-hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-desk-2x.jpg);
+    }
+  }
+  .hero-title {
+    margin-bottom: 48px;
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .footer-flex {
+    gap: 80px;
+  }
+  .f-logo-list {
+    margin-right: 40px;
+  }
+  .footer-text {
+    margin: 0;
+  }
+  .header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .nav {
+    gap: 76px;
+  }
+  .header-wrap .address-list {
+    flex-direction: row;
+    gap: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .features-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .portfolio {
+    padding-top: 100px;
+  }
+  .filters-list {
+    margin-bottom: 72px;
+  }
+  .examples-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .examples-list {
+    row-gap: 48px;
+  }
+}
